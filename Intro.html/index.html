@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+       <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>Laptop</td>
+            <td>$7.800</td>
+        </tr>
+        <tr>
+            <td>Ipad</td>
+            <td>$5.500</td>
+        </tr>
+        <tr>
+            <td>Samsung S21FE</td>
+            <td>$13.900</td>
+        </tr>
+        <tr>
+            <td>Iphone 13 Pro max 256gb</td>
+            <td>$27.800</td>
+        </tr>
+       </tbody>
+       <tfoot>
+           <td></td>
+           <td>Total $55.000</td>
+       </tfoot>
+    </table>
+    <!--Ul = Lista no ordenada-->
+    <ul>
+        <li>elemneto 1</li>
+        <li>elemneto 2</li>
+        <li>elemneto 3</li>
+        <li>elemneto 4</li>
+    </ul>
+    <!--OL es una lista ordenada-->
+    <ol>
+        <li value="10">elemneto 1</li> <!--Agregar value ayuyda a decir apartir de que valor comensara la lista-->
+        <li>elemneto 2</li>
+        <li>elemneto 3</li>
+        <li>elemneto 4</li>
+        <li>elemneto 5</li>
+        <li>elemneto 6</li>
+        <li>elemneto 7</li>
+        <li>elemneto 8</li>
+        <li>elemneto 9</li>
+        <li>elemneto 10</li>
+        <li>elemneto 11</li>
+        <li>elemneto 12</li>
+        <li>
+            <ol>
+                <li style="list-style: lower-roman;">sub elemneto 1</li>
+                <li style="list-style: lower-roman;">sub elemneto 2</li>
+                <li style="list-style: lower-roman;">sub elemneto 3</li>
+            </ol>
+        </li>
+    </0l>
+
+    <br>
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="carlos" type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aqui"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="montoya" type="text" id="apellido" name="apellido" placeholder="Intruduce tu apellido aqui"/>
+        <br>
+        <label for="comentarios">Comentario</label>
+        <textarea cols="50" rows="15" id="comentario" placeholder="Ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="button"><img src="img/Zenitsu.jpg"> Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>    
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Mi primera practica de HTML5</p>
+    <p>Mi segunda practica de parrafo</p>
+    <hr> 
+    <h2>Practica 1</h2>
+    <p>Practica de separacion de parrafos y este texto es <span style="color:blue">mucho mas largo</span> para <br>
+        mostrar la etiqueta de span!</p>
+    <!--Etiqueta de comentarios-->
+    <a target="_blank" href="https://www.google.com.mx/?hl=es">Ir a google</a>
+    <img src="img/Zenitsu.jpg" width="400"/> 
+    
+</body>
+</html>
